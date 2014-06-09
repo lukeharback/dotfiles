@@ -1,3 +1,4 @@
+#!/bin/bash
 # Load aliases ~/.aliases
 declare -a DOTFILES_ARR=(~/.bash_prompt ~/.functions ~/.aliases ~/.profile) 
 
