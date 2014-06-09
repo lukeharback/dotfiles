@@ -13,8 +13,7 @@ alias dotfiles="subl ~/.dotfiles"
 
 #git
 alias g="git"
-alias removeds="find . -name .DS_Store -exec git rm --ignore-unmatch --cached {} +"
-alias lines="git ls-files | xargs wc -l | awk -F ' +|\\.|/' '{ sumlines[$NF] += $2 } END { for (ext in sumlines) print ext, sumlines[ext] }'"
+alias removestore="find . -name .DS_Store -exec git rm --ignore-unmatch --cached {} +"
 
 #tree the first two directories
 alias tree='tree -ACL 2 --dirsfirst'
