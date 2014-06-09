@@ -1,10 +1,9 @@
 # Dotfiles
 
 This repository is home to my personal dotfiles. The repo includes a setup script that can be
-used to get you started. I prefer my dotfiles to be hidden in my home directory, the script 
-and dotfiles are set up for that. To accommodate this change the repo's name to .dotfiles 
-before running the script
-
+used to get you started. I prefer my dotfiles to be hidden in my home directory, the script
+and dotfiles are set up for that. To accommodate this change the repo's name to .dotfiles and remove root
+folder before running the script
 
 ![Alt text](terminal.png?raw=true "Terminal")
 
