@@ -29,3 +29,8 @@ done
 cd $P
 export MPWD=$P
 }
+
+function lines()
+{
+git ls-files | xargs wc -l | awk -F ' +|\\.|/' '{ sumlines[$NF] += $2 } END { for (ext in sumlines) print ext, sumlines[ext] }'
+}
