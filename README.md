@@ -6,7 +6,7 @@ and dotfiles are set up for that. To accommodate this change the repo's name to 
 before running the script
 
 
-![Alt text](https://github.com/lukeharback/dotfiles/blob/master/terminal?raw=true "Optional Title")
+![Alt text](terminal?raw=true "Terminal")
 
 ## Installation
 
