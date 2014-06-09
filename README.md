@@ -5,6 +5,9 @@ used to get you started. I prefer my dotfiles to be hidden in my home directory,
 and dotfiles are set up for that. To accommodate this change the repo's name to .dotfiles 
 before running the script
 
+
+![Alt text](https://github.com/lukeharback/dotfiles/blob/master/terminal?raw=true "Optional Title")
+
 ## Installation
 
 ```console
@@ -14,7 +17,6 @@ cd dotfiles
 ```
 
 ###### ./createsymlinks.sh
-
 1. Creates a directory to back up the previous dotfiles
 2. Moves previous dotfiles to said directory
 3. Creates symlinks from .dotfiles to the home directory
