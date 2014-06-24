@@ -9,7 +9,7 @@
 
 dir=~/.dotfiles                    # dotfiles directory
 olddir=~/.dotfiles_old             # old dotfiles backup directory
-files="aliases bash_profile bash_prompt bashrc functions profile zshrc" # list of files
+files="aliases bash_profile bash_prompt bashrc functions profile zshrc gitconfig" # list of files
 
 ##########
 
