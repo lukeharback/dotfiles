@@ -1,0 +1,10 @@
+[user]
+	name = Luke
+	email = lukeharback@griffithuni.edu.au
+[credential]
+	helper = osxkeychain
+[alias]
+	co = checkout
+	lol = log --oneline --graph --decorate
+[color]
+	ui = true
