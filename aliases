@@ -4,7 +4,7 @@
 alias ..="cd .."
 
 #Terminal
-alias cs="clear" 
+alias cs="clear"
 alias la="ls -la"
 
 #dotfiles
@@ -20,7 +20,7 @@ alias tree='tree -ACL 2 --dirsfirst'
 #swift
 alias swift='/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift'
 alias use_xcode5="sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer"
-alias use_xcode6="sudo xcode-select -switch /Applications/Xcode6-Beta.app/Contents/Developer"
+alias use_xcode6="sudo xcode-select -switch /Applications/Xcode6-Beta5.app/Contents/Developer"
 
 # Show/hide hidden files in Finder
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
