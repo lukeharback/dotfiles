@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #Create new directory and cd into it
-function md() 
+function md()
 {
 mkdir -p "$@" && cd "$@"
 }
 
 #Go to up a level in folder structure
-function up() 
+function up()
 {
 LIMIT=$1
 P=$PWD
@@ -35,4 +35,9 @@ export MPWD=$P
 function lines()
 {
 git ls-files | xargs wc -l | awk -F ' +|\\.|/' '{ sumlines[$NF] += $2 } END { for (ext in sumlines) print ext, sumlines[ext] }'
+}
+
+function gi()
+{
+curl http://www.gitignore.io/api/$@;
 }
