@@ -37,6 +37,7 @@ function lines()
 git ls-files | xargs wc -l | awk -F ' +|\\.|/' '{ sumlines[$NF] += $2 } END { for (ext in sumlines) print ext, sumlines[ext] }'
 }
 
+<<<<<<< HEAD
 function man() {
     env \
     LESS_TERMCAP_mb=$(printf "\e[1;31m") \
@@ -47,4 +48,9 @@ function man() {
     LESS_TERMCAP_ue=$(printf "\e[0m") \
     LESS_TERMCAP_us=$(printf "\e[1;32m") \
     man "$@"
+=======
+function gi()
+{
+curl http://www.gitignore.io/api/$@;
+>>>>>>> bf45de11dc387a02d2a3a2ffd5156b9a3a0719ca
 }
