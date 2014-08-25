@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # @gf3’s Sexy Bash Prompt, inspired by “Extravagant Zsh Prompt”
-# Shamelessly copied from Rob Chatfield, who copied from Paul Irish, who copied from this guy https://github.com/gf3/dotfiles 
+# Shamelessly copied from Rob Chatfield, who copied from Paul Irish, who copied from this guy https://github.com/gf3/dotfiles
 
 default_username='luke'
 
@@ -51,7 +51,7 @@ function git_info() {
 
 # Only show username/host if not default
 function usernamehost() {
-    if [ $USER != $default_username ]; then echo "${GREEN}$USER ${WHITE}at ${GREEN}$HOSTNAME $WHITEin "; fi
+    if [ $USER != $default_username ]; then echo "${GREEN}$USER ${WHITE}-> "; fi #${GREEN}$HOSTNAME $WHITEin
 }
 
 # iTerm Tab and Title Customization and prompt customization
