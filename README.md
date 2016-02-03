@@ -6,7 +6,7 @@ and dotfiles are set up for that. To accommodate this change the repo's name to 
 folder before running the script
 
 #### oh-my-zsh terminal
-![Alt text](terminal.png?raw=true "zshrc-terminal")
+![Alt text](zshrc-terminal.png?raw=true "zshrc terminal")
 #### Bash terminal
 ![Alt text](terminal.png?raw=true "Terminal")
 
