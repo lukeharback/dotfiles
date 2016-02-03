@@ -53,3 +53,9 @@ function gi()
 {
 curl http://www.gitignore.io/api/$@;
 }
+
+#turn video into gif
+function gif()
+{
+  ffmpeg -i "$@" -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=10 --delay=5 > out.gif
+}

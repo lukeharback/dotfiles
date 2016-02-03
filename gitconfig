@@ -1,10 +1,11 @@
 [user]
 	name = Luke
-	email = lukeharback@griffithuni.edu.au
+	email = lharback@gmail.com
 [credential]
 	helper = osxkeychain
 [alias]
 	co = checkout
+    s = status
 	lol = log --oneline --graph --decorate
 [color]
 	ui = true
@@ -12,7 +13,6 @@
 	excludesfile = /Users/Luke/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
