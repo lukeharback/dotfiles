@@ -95,3 +95,16 @@ function gif()
 {
   ffmpeg -i "$@" -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=10 --delay=5 > out.gif
 }
+
+function jhome () 
+{
+  export JAVA_HOME=`/usr/libexec/java_home $@`
+  echo "JAVA_HOME:" $JAVA_HOME
+  echo "java -version:"
+  java -version
+}
+
+function dynamo()
+{
+    java -Djava.library.path=~/.dynamo-local/DynamoDBLocal_lib/ -jar ~/.dynamo-local/DynamoDBLocal.jar
+}
